@@ -1,0 +1,61 @@
+h1 {
+    font-size: 4vw;
+    background-image: url("../yox2.jpg");
+    text-align: center;
+}
+
+body {
+    background-image: url("../fondo.gif");
+}
+
+p {
+    font-size: 2vw;
+    line-height: 3vw;
+    color: aliceblue;
+    background-color: lightcoral;
+    border-radius: 9px;
+    border-style: dashed;
+    border-color: white;
+    border-width: 0.5vw;
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+
+    padding: 50px 80px;
+}
+
+div {
+    background-color: black;
+    color: lightsalmon;
+    text-align: center;
+    font-size: 2vw;
+    border-style: double;
+    border-color: pink;
+    border-width: 0.5vw;
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+
+    padding: 50px 80px;
+}
+
+.paz {
+    font-family: 'Pacifico', cursive;
+}
+
+@font-face {
+    font-family: "Graduate";
+    src: url('../Graduate.ttf') format('truetype')
+}
+
+.Graduate {
+    font-family: "Graduate";
+}
+
+.texto {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
